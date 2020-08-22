@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
     Overview: ['overview'],
-    Guide: ['wallet', 'mining'],
+    Guide: ['wallet', 'mining', 'faucet'],
   },
 };
