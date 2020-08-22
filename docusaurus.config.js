@@ -6,7 +6,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'kulupu',
-  projectName: 'kulupu',
+  projectName: 'website',
   themeConfig: {
     navbar: {
       title: 'Kulupu',
