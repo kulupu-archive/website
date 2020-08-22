@@ -47,15 +47,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Guide',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Wallet',
+              to: 'docs/wallet/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Mining',
+              to: 'docs/mining/',
             },
           ],
         },
@@ -63,16 +63,20 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Matrix',
+              href: 'https://app.element.io/#/group/+kulupu:matrix.org',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.io/kulupu',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/kulupunetwork',
+            },
+            {
+              label: 'Telegram',
+              href: 'https://t.me/KulupuOfficial',
             },
           ],
         },
@@ -85,7 +89,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/kulupu/kulupu',
             },
           ],
         },

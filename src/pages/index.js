@@ -8,32 +8,50 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>On-chain governance</>,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Referendum proposals are submitted by users, and voted by coin holders. This user-driven governance system allows Kulupu to enact runtime upgrade easily.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: <>Forkless upgrade</>,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Thanks to the power of Substrate and WebAssembly, runtime upgrade can be activated without hard forks, greatly reducing the risks of network split.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>Voluntary taxation and treasury</>,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        A public-good treasury system is both available and voluntary. Coin holders have the final say on how funds are spent.
+      </>
+    ),
+  },
+  {
+    title: <>Actor-based smart contract</>,
+    description: (
+      <>
+        Actor-based smart contract aims at solving some of the outstanding issues in normal call-based smart contract system like in Ethereum.
+      </>
+    ),
+  },
+  {
+    title: <>Built on Substrate</>,
+    description: (
+      <>
+        Kulupu uses the same underlying framework that is used to build Polkadot, allowing easy interoperability with the ecosystem.
+      </>
+    ),
+  },
+  {
+    title: <>Signed mining</>,
+    description: (
+      <>
+        Kulupu empowers a new design of proof-of-work algorithm called signed mining, reducing the risks of hashpower rental 51% attacks and malware mining. It is also ASIC-resistant and has no pre-mine.
       </>
     ),
   },
